@@ -1,6 +1,6 @@
-import { fileRoutes } from 'filesystem-routing/vite';
-import { defineConfig } from 'vitest/config';
-import solid from '@solidjs/vite-plugin';
+import solid from "@solidjs/vite-plugin";
+import { fileRoutes } from "filesystem-routing/vite";
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   // Turnkey client mode: no index.html and no mount file — the plugin generates
@@ -9,22 +9,27 @@ export default defineConfig({
   plugins: [
     // `extensions` makes @solidjs/vite-plugin also compile the `?pick=` route
     // modules the fileRoutes plugin emits (their ids end in a query string).
-    solid({ start: true, ssr: true, extensions: ['.jsx', '.tsx'], diagnostics: true }),
+    solid({
+      start: true,
+      ssr: true,
+      extensions: [".jsx", ".tsx"],
+      diagnostics: true,
+    }),
     fileRoutes({ types: true }),
   ],
   server: {
     port: 3000,
   },
   test: {
-    environment: 'jsdom',
+    environment: "jsdom",
     globals: false,
-    setupFiles: ['./vitest-setup.ts'],
+    setupFiles: ["./vitest-setup.ts"],
     // if you have few tests, try commenting this
     // out to improve performance:
     isolate: false,
   },
   build: {
-    target: 'esnext',
+    target: "esnext",
     assetsInlineLimit: 0,
   },
 });

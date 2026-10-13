@@ -1,5 +1,5 @@
 {
-  "name": "example-basic",
+  "name": "admin_ui",
   "version": "0.0.0",
   "description": "",
   "type": "module",
@@ -12,24 +12,24 @@
     "start": "node --env-file-if-exists=.env server.js"
   },
   "license": "MIT",
-  "devDependencies": {
-    "@solidjs/diagnostics": "^2.0.0-rc.14",
-    "@solidjs/start-devtools": "^1.0.0-next.4",
-    "@solidjs/testing-library": "^1.0.0-beta.3",
-    "@solidjs/vite-plugin": "^3.0.0-next.48",
-    "@testing-library/jest-dom": "^7.0.0",
-    "eslint-plugin-solid": "~0.18.1",
-    "filesystem-routing": "0.4.0",
-    "jsdom": "^25.0.1",
-    "oxlint": "~1.79.0",
-    "typescript": "^5.9.2",
-    "vite": "^8.1.5",
-    "vitest": "^5.0.0"
-  },
   "dependencies": {
     "@solidjs/meta": "^1.0.0-next.2",
     "@solidjs/router": "^2.0.0-next.38",
     "@solidjs/web": "^2.0.0-rc.14",
     "solid-js": "^2.0.0-rc.14"
+  },
+  "devDependencies": {
+    "@solidjs/diagnostics": "^2.0.0-rc.14",
+    "@solidjs/start-devtools": "^1.0.0-next.5",
+    "@solidjs/testing-library": "^1.0.0-beta.3",
+    "@solidjs/vite-plugin": "^3.0.0-next.49",
+    "@testing-library/jest-dom": "^7.0.1",
+    "eslint-plugin-solid": "~0.18.1",
+    "filesystem-routing": "0.4.0",
+    "jsdom": "^30.1.2",
+    "oxlint": "~1.88.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4"
   }
 }
