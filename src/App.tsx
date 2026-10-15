@@ -11,6 +11,7 @@ export default function App() {
           <Title>Solid App</Title>
           <nav>
             <a href={paths()}>Home</a>
+            <a href={paths.about()}>About</a>
             <a href={paths.users(1)}>Users</a>
           </nav>
           <Loading fallback={<main>Loading…</main>}>{props.children}</Loading>

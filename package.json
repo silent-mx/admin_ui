@@ -14,15 +14,15 @@
   "license": "MIT",
   "dependencies": {
     "@solidjs/meta": "^1.0.0-next.2",
-    "@solidjs/router": "^2.0.0-next.38",
-    "@solidjs/web": "^2.0.0-rc.14",
-    "solid-js": "^2.0.0-rc.14"
+    "@solidjs/router": "^2.0.0-next.39",
+    "@solidjs/web": "^2.0.0-rc.15",
+    "solid-js": "^2.0.0-rc.15"
   },
   "devDependencies": {
-    "@solidjs/diagnostics": "^2.0.0-rc.14",
+    "@solidjs/diagnostics": "^2.0.0-rc.15",
     "@solidjs/start-devtools": "^1.0.0-next.5",
     "@solidjs/testing-library": "^1.0.0-beta.3",
-    "@solidjs/vite-plugin": "^3.0.0-next.49",
+    "@solidjs/vite-plugin": "^3.0.0-next.50",
     "@testing-library/jest-dom": "^7.0.1",
     "eslint-plugin-solid": "~0.18.1",
     "filesystem-routing": "0.4.0",
